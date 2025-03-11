@@ -1,0 +1,107 @@
+:root {
+  --black: #171321;
+  --dkblue: #0d314b;
+  --plum: #4b0d49;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --aqua: #86fbfb;
+  --white: #f7f8fa;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  padding: 2rem 0;
+}
+.jumps {
+  display: flex;
+  gap: 10px;
+}
+.jumps li {
+  list-style: none;
+}
+.jumps li a {
+  text-decoration: none;
+  margin: left 10px;
+}
+.am {
+  display: flex;
+}
+.ruler {
+  height: 3px;
+  background-color: red;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: var(--magenta);
+  cursor: grab;
+  width: 100px;
+}
+.section-blue {
+  background-color: var(--dkblue);
+}
+.select-blue #projects {
+  width: 800px;
+  margin: 0 auto;
+  padding: 4rem;
+}
+article {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+#projects {
+  margin-left: 100px;
+}
+p {
+  background-color: var(--black);
+  padding: 2rem;
+  border-radius: 12px;
+}
+img {
+  border-top: solid 5px;
+  border-left: solid 5px;
+  border-radius: 3rem;
+  border-color: aqua;
+  padding: 10px;
+}
+#projects h2 {
+  font-family: var(--mono);
+}
+.skills {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  justify-content: right;
+}
+.text h3 {
+  text-align: right;
+  color: aqua;
+  margin: 8px;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  border: 5px solid red;
+}
+.social {
+  justify-content: center;
+}
+.fav {
+  padding-top: 20px;
+}

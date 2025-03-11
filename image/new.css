@@ -1,0 +1,15 @@
+body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  background-color: lightgreen;
+  color: orange;
+  font-size: 40px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+    color:lightblue;
+    font-size: 40px;
+}   
+}
